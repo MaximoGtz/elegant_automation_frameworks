@@ -11,6 +11,7 @@ def chrome_browser():
 
 @fixture(scope="function")
 def get_configuration():
+    
     config = [
         3006,
         "database",
